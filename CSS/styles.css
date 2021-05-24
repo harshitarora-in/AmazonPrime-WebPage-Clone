@@ -1,0 +1,456 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  --webkit-font-smoothing: antialiased;
+  background: #000;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 94%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.text-lg {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+/* .text-md {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+} */
+
+/* .text_dark {
+  color: #999;
+} */
+
+:root {
+  --primarycolor: #107ab0;
+  --darkbluecolor: #1b252f;
+  --greycolor: #222222;
+}
+
+/* Top bar Section*/
+
+.logo {
+  width: 115px;
+}
+
+.top-bar-content {
+  width: 100%;
+  background: var(--darkbluecolor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.6rem;
+  height: 11vh;
+}
+
+.top-bar-content a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #b4b2b2;
+  transition: all 100ms;
+}
+
+.top-bar-content a:hover {
+  color: #dddddd;
+}
+
+/* Showcase Section */
+
+.showcase {
+  height: 72vh;
+  background: url(/Project8-Amazon-prime-clone/Images/main-header-2.jpg);
+  box-shadow: inset 450px 0px 120px #000;
+}
+
+.showcase h1,
+.active-show h1,
+.living-room-content h1,
+.benefits-content h1,
+.fire-stick-content h1,
+.family-friendly-content h1 {
+  padding-top: 7rem;
+  padding-bottom: 1.8rem;
+}
+
+.showcase p,
+.active-show p,
+.living-room-content p,
+.benefits-content p,
+.family-friendly-content p,
+.fire-stick-content p {
+  width: 39vw;
+  line-height: 1.8rem;
+  padding-bottom: 3rem;
+}
+
+.showcase-content .btn {
+  padding: 1.1rem 4.5rem;
+  border: none;
+  border-radius: 3px;
+  background: var(--primarycolor);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Active Show Section */
+
+.active-show {
+  height: 520px;
+  background: url(/Project8-Amazon-prime-clone/Images/current-show-2.jpg);
+  background-size: contain;
+  background-position: right top;
+  box-shadow: inset 400px 0px 150px #000;
+}
+
+.active-show-content .btn {
+  padding: 1.1rem 2.8rem;
+  border: none;
+  border-radius: 3px;
+  background: var(--primarycolor);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Living room section */
+
+.living-room {
+  height: 450px;
+  background: url(/Project8-Amazon-prime-clone/Images/IN-Living-Room-2.jpg) left
+    no-repeat;
+  box-shadow: inset -600px 0px 150px #000;
+}
+
+.living-room-content .btn,
+.benefits-content .btn,
+.fire-stick-content .btn,
+.family-friendly-content .btn {
+  padding: 1.1rem 6rem;
+  border: none;
+  border-radius: 3px;
+  background: var(--primarycolor);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.living-room-content,
+.fire-stick-content {
+  float: right;
+  padding-bottom: 200px;
+}
+
+/* benifits Sections */
+
+.benefits {
+  height: 470px;
+  background: url(/Project8-Amazon-prime-clone/Images/PRIME_multi-benefit_MAGNET_2.jpg)
+    no-repeat;
+  background-position: right top;
+  background-size: 56%;
+}
+
+.benefits-content {
+  /* width: 40vw; */
+  margin-top: -50px;
+  padding-bottom: 50px;
+}
+
+.benefits-content h1 {
+  width: 80vh;
+}
+
+h6 {
+  padding-top: 1.2rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Fire Stick */
+
+.fire-stick {
+  background: url(/Project8-Amazon-prime-clone/Images/amzon_device_2.jpg) left
+    no-repeat;
+  height: 550px;
+  box-shadow: inset -600px 0px 150px #000;
+}
+/* 
+.fire-stick-content p {
+  line-height: 1.8rem;
+  padding-bottom: 3rem;
+}
+
+.fire-stick-content {
+  float: right;
+} */
+
+/* Grid */
+
+.grid {
+  background: white;
+  padding-top: 3.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.grid .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  text-align: center;
+}
+
+.grid .container h1 {
+  color: #000;
+  font-size: 2.4rem;
+  padding-top: 0.6rem;
+}
+
+.grid .container p {
+  color: #000;
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+}
+
+.grid .container img {
+  width: 80%;
+}
+
+/* Family Friendly */
+
+.family-friendly {
+  background: url(/Project8-Amazon-prime-clone/Images/IN-kids-2.jpg) no-repeat;
+  background-size: 55%;
+  background-position: right;
+  box-shadow: inset 650px 0 120px #000;
+  height: 450px;
+}
+
+.family-friendly-content {
+  margin-top: -60px;
+}
+
+/* Footer */
+
+.footer {
+  padding-top: 50px;
+  background: var(--greycolor);
+  height: 20vh;
+  position: relative;
+}
+
+.footer img {
+  position: absolute;
+  width: 110px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-links a {
+  color: var(--primarycolor);
+  padding-left: 10px;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  font-size: 1rem;
+  padding-left: 15px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  margin-top: 0.8rem;
+}
+
+/* media query */
+/* Upto 586 Tab View */
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 98%;
+  }
+  /* Main Section */
+  .showcase,
+  .active-show,
+  .living-room,
+  .benefits,
+  .fire-stick {
+    height: 55vh;
+    box-shadow: inset 0px -70px 50px #000;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-bottom: 19rem;
+  }
+
+  /* Custom styles for section */
+  .benefits {
+    margin-bottom: 14rem;
+  }
+
+  .family-friendly {
+    height: 55vh;
+    box-shadow: inset 0px -70px 50px #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20rem;
+  }
+
+  /* Content */
+  .showcase-content,
+  .active-show-content,
+  .living-room-content,
+  .benefits-content,
+  .family-friendly-content,
+  .fire-stick-content {
+    display: flex;
+    padding-top: 350px;
+    padding-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* custom content styles */
+  .living-room-content,
+  .fire-stick-content {
+    float: none;
+  }
+
+  .benefits-content,
+  .family-friendly-content {
+    padding-top: 430px;
+  }
+
+  /* Content Heading */
+  .showcase-content h1,
+  .active-show-content h1,
+  .living-room-content h1,
+  .benefits-content h1,
+  .family-friendly-content h1,
+  .fire-stick-content h1 {
+    width: 85vw;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Content Button */
+  .showcase-content .btn,
+  .living-room-content .btn,
+  .benefits-content .btn,
+  .family-friendly-content .btn,
+  .fire-stick-content .btn {
+    padding: 1.1rem 6rem;
+    margin: 0;
+  }
+
+  /* custom button */
+  .active-show-content .btn {
+    padding: 1.1rem 4rem;
+  }
+
+  /* Content p */
+  .showcase-content p,
+  .active-show-content p,
+  .living-room-content p,
+  .benefits-content p,
+  .family-friendly-content p,
+  .fire-stick-content p {
+    width: 85vw;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    line-height: 1.4rem;
+  }
+  /* 
+  .fire-stick {
+    height: 96vh;
+  } */
+
+  .grid .container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid .container img {
+    width: 55%;
+  }
+
+  .grid .container p {
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .grid .container h1 {
+    font-size: 2rem;
+  }
+
+  .footer {
+    height: 22vh;
+  }
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-links {
+    margin-bottom: 0.6rem;
+  }
+  .footer a {
+    font-size: 0.6rem;
+  }
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .showcase-content .btn,
+  .living-room-content .btn,
+  .benefits-content .btn,
+  .family-friendly-content .btn,
+  .fire-stick-content .btn {
+    padding: 1.1rem 4.5rem;
+    margin: 0;
+  }
+  .active-show-content .btn {
+    padding: 1.1rem 3.2rem;
+  }
+}
