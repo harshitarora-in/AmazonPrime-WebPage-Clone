@@ -87,7 +87,7 @@ img {
 
 .showcase {
   height: 72vh;
-  background: url(/Project8-Amazon-prime-clone/Images/main-header-2.jpg);
+  background: url(/AmazonPrime-WebPage-Clone/Images/main-header-2.jpg);
   box-shadow: inset 450px 0px 120px #000;
 }
 
@@ -126,7 +126,7 @@ img {
 
 .active-show {
   height: 520px;
-  background: url(/Project8-Amazon-prime-clone/Images/current-show-2.jpg);
+  background: url(/AmazonPrime-WebPage-Clone/Images/current-show-2.jpg);
   background-size: contain;
   background-position: right top;
   box-shadow: inset 400px 0px 150px #000;
@@ -146,7 +146,7 @@ img {
 
 .living-room {
   height: 450px;
-  background: url(/Project8-Amazon-prime-clone/Images/IN-Living-Room-2.jpg) left
+  background: url(/AmazonPrime-WebPage-Clone/Images/IN-Living-Room-2.jpg) left
     no-repeat;
   box-shadow: inset -600px 0px 150px #000;
 }
@@ -175,7 +175,7 @@ img {
 
 .benefits {
   height: 470px;
-  background: url(/Project8-Amazon-prime-clone/Images/PRIME_multi-benefit_MAGNET_2.jpg)
+  background: url(/AmazonPrime-WebPage-Clone/Images/PRIME_multi-benefit_MAGNET_2.jpg)
     no-repeat;
   background-position: right top;
   background-size: 56%;
@@ -200,7 +200,7 @@ h6 {
 /* Fire Stick */
 
 .fire-stick {
-  background: url(/Project8-Amazon-prime-clone/Images/amzon_device_2.jpg) left
+  background: url(/AmazonPrime-WebPage-Clone/Images/amzon_device_2.jpg) left
     no-repeat;
   height: 550px;
   box-shadow: inset -600px 0px 150px #000;
@@ -249,7 +249,7 @@ h6 {
 /* Family Friendly */
 
 .family-friendly {
-  background: url(/Project8-Amazon-prime-clone/Images/IN-kids-2.jpg) no-repeat;
+  background: url(/AmazonPrime-WebPage-Clone/Images/IN-kids-2.jpg) no-repeat;
   background-size: 55%;
   background-position: right;
   box-shadow: inset 650px 0 120px #000;
